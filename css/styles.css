@@ -1,0 +1,239 @@
+body {
+  font-family: Roboto, Raleway, sans-serif;
+  color: #757575;
+  background-color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* --------------HEADER----------------------- */
+
+.header_logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #212121;
+}
+
+.header_logo_span {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+.header_nav_list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.header_nav_link,
+.header_tel,
+.header_mail {
+  color: #212121;
+}
+
+/* ----------------------HOVER---------------------------- */
+
+.header_nav_link:hover,
+.header_tel:hover,
+.header_mail:hover,
+.footer_tel:hover,
+.footer_mail:hover {
+  color: #2196f3;
+}
+
+/* ----------------------FOCUS---------------------------- */
+.hero_btn {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+
+.header_nav_link:focus,
+.header_tel:focus,
+.header_mail:focus,
+.footer_tel:focus,
+.footer_mail:focus {
+  color: #2196f3;
+}
+
+.header_list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+/* ----------------------HERO---------------------------- */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero_title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero_btn {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+}
+
+/* ----------------- PECULIARITEIS--------------------------- */
+
+.peculiarities_hide,
+.portfolio_title_hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.peculiarities_title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+/* -----------------  WHAT WE DO --------------------------- */
+.work_title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+
+/* -----------------  COMMADS --------------------------- */
+
+.commands {
+  background-color: #f5f4fa;
+}
+
+.commands_title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+
+.commands_name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #212121;
+}
+
+/* -----------------  FOOTER --------------------------- */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer_logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+
+.footer_logo_span {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+.footer_link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer_mail,
+.footer_tel {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* -----------------  PORTFOLIO --------------------------- */
+
+.portfolio_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio_text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.portfolio_btn {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+
+.portfolio_btn:focus,
+.portfolio_btn:hover {
+  background-color: #2196f3;
+}
