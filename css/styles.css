@@ -1,9 +1,26 @@
+:root {
+  --main-title-color: #ffffff;
+  --second-title-color: #212121;
+  --main-text-color: #757575;
+  --footer-contacts-text-color: rgba(255, 255, 255, 0.6);
+  --footer-link-color: #ffffff;
+  --header-contacts-text-color: #757575;
+  --hover-color: #2196f3;
+  --focus-color: #2196f3;
+  --hero-btn-color: #188ce8;
+  --web-logo-color: #2196f3;
+  --studio-header-logo-color: #212121;
+  --studio-footer-logo-color: #ffffff;
+  --main-btn-color: #ffffff;
+  --background-btn-color: #2196f3;
+  --background-hero-footer-color: #2f303a;
+  --background-commands-color: #f5f4fa;
+  --second-btn-color: #212121;
+  --portfolio-btn-accent-color: #ffffff;
+}
+
 body {
-  font-family: Roboto, Raleway, sans-serif;
-  color: #757575;
-  background-color: #ffffff;
-  font-style: normal;
-  font-weight: 400;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -16,23 +33,23 @@ body {
 
 /* --------------HEADER----------------------- */
 
-.site_logo {
+.site-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #212121;
+  color: var(--studio-header-logo-color);
 }
 
-.site_logo_span {
+.site-logo-span {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--web-logo-color);
 }
 
-.site_nav_list {
+.site-nav-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -40,60 +57,60 @@ body {
   color: #212121;
 }
 
-.navigation_tel,
-.navigation_mail {
-  color: #757575;
+.contacts-tel,
+.contacts-mail {
+  color: var(--header-contacts-text-color);
 }
 
 /* ----------------------HOVER---------------------------- */
 
-.site_nav_list:hover,
-.navigation_tel:hover,
-.navigation_mail:hover,
-.footer_tel:hover,
-.footer_mail:hover {
-  color: #2196f3;
+.site-nav-list:hover,
+.contacts-tel:hover,
+.contacts-mail:hover,
+.footer-tel:hover,
+.footer-mail:hover {
+  color: var(--hover-color);
 }
 
 /* ----------------------FOCUS---------------------------- */
-.hero_btn {
-  background-color: #188ce8;
+.hero-btn {
+  background-color: var(--hero-btn-color);
   cursor: pointer;
 }
 
-.site_nav_list:focus,
-.navigation_tel:focus,
-.navigation_mail:focus,
-.footer_tel:focus,
-.footer_mail:focus {
-  color: #2196f3;
+.site-nav-list:focus,
+.contacts-tel:focus,
+.contacts-mail:focus,
+.footer-tel:focus,
+.footer-mail:focus {
+  color: var(--focus-color);
 }
 
-.navigation_list {
+.contacts-list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--header-contacts-text-color);
 }
 
 /* ----------------------HERO---------------------------- */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-hero-footer-color);
 }
 
-.hero_title {
+.hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 
-.hero_btn {
+.hero-btn {
   font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
@@ -102,14 +119,14 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--main-btn-color);
+  background: var(--background-btn-color);
 }
 
 /* ----------------- PECULIARITEIS--------------------------- */
 
-.peculiarities_hide,
-.portfolio_title_hide {
+.peculiarities-hide,
+.portfolio-title-hide {
   border: 0;
   clip: rect(0 0 0 0);
   height: 1px;
@@ -121,119 +138,115 @@ body {
   width: 1px;
 }
 
-.peculiarities_title {
+.peculiarities-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--second-title-color);
 }
 
 /* -----------------  WHAT WE DO --------------------------- */
-.work_title {
+.work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
+  color: var(--second-title-color);
 }
 
 /* -----------------  COMMADS --------------------------- */
 
 .commands {
-  background-color: #f5f4fa;
+  background-color: var(--background-commands-color);
 }
 
-.commands_title {
-  font-family: Roboto;
-  font-style: normal;
+.commands-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
+  color: var(--second-title-color);
 }
 
-.commands_name {
+.commands-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #212121;
+  color: var(--second-title-color);
 }
 
 /* -----------------  FOOTER --------------------------- */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-hero-footer-color);
 }
 
-.footer_logo {
+.footer-logo {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #ffffff;
+  color: var(--studio-footer-logo-color);
 }
 
-.footer_logo_span {
+.footer-logo-span {
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--web-logo-color);
 }
 
-.footer_link {
+.footer-link {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--footer-link-color);
 }
 
-.footer_mail,
-.footer_tel {
-  font-family: Roboto;
-  font-style: normal;
+.footer-mail,
+.footer-tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-contacts-text-color);
 }
 
 /* -----------------  PORTFOLIO --------------------------- */
 
-.portfolio_title {
+.portfolio-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--second-title-color);
 }
 
-.portfolio_text {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
 }
 
-.portfolio_btn {
+.portfolio-btn {
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-btn-color);
   cursor: pointer;
 }
 
-.portfolio_btn:focus,
-.portfolio_btn:hover {
-  color: #ffffff;
-  background-color: #2196f3;
+.portfolio-btn:focus,
+.portfolio-btn:hover {
+  color: var(--portfolio-btn-accent-color);
+  background-color: var(--background-btn-color);
 }
